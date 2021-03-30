@@ -1,0 +1,50 @@
+.discover-main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.discover-main-section .covers-image {
+  width: 30vw;
+  margin-left: 2rem;
+  height: auto;
+  max-width: 350px;
+}
+
+.icon-section {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem;
+  padding: .75rem;
+  width: 120px;
+  height: 120px;
+  background-color: #202025;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.icon:hover{
+  background-color: #232327ab;
+}
+
+.icon i {
+  font-size: 2.4em;
+}
+
+@media (max-width: 800px){
+  .discover-main-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .discover-main-section .covers-image {
+    display: none;
+  }
+}
